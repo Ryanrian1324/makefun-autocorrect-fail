@@ -1,16 +1,16 @@
 # makefun-autocorrect-fail
 
-Entry for make.fun's [Funniest Autocorrect Fail bounty](https://make.fun/bounty/u-zeroxfive-funniest-autocorrect-fail-ddf82154?utm_source=github&utm_medium=readme&utm_campaign=u-zeroxfive-funniest-autocorrect-fail-ddf82154).
+Entry for make.fun's [Funniest Autocorrect Fail bounty](https://make.fun/bounty/u-zeroxfive-funniest-autocorrect-fail-ddf82154).
 
-[![make.fun · u-zeroxfive-funniest-autocorrect-fail-ddf82154](https://make.fun/badge/u-zeroxfive-funniest-autocorrect-fail-ddf82154.svg)](https://make.fun/bounty/u-zeroxfive-funniest-autocorrect-fail-ddf82154?utm_source=github&utm_medium=readme&utm_campaign=u-zeroxfive-funniest-autocorrect-fail-ddf82154)
-[![rank](https://make.fun/badge/u-zeroxfive-funniest-autocorrect-fail-ddf82154/Ryanrian1324/makefun-autocorrect-fail/rank.svg)](https://make.fun/bounty/u-zeroxfive-funniest-autocorrect-fail-ddf82154/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-zeroxfive-funniest-autocorrect-fail-ddf82154)
-[![reward](https://make.fun/badge/u-zeroxfive-funniest-autocorrect-fail-ddf82154/Ryanrian1324/makefun-autocorrect-fail/reward.svg)](https://make.fun/bounty/u-zeroxfive-funniest-autocorrect-fail-ddf82154?utm_source=github&utm_medium=readme&utm_campaign=u-zeroxfive-funniest-autocorrect-fail-ddf82154)
+[![make.fun · u-zeroxfive-funniest-autocorrect-fail-ddf82154](https://make.fun/badge/u-zeroxfive-funniest-autocorrect-fail-ddf82154.svg)](https://make.fun/bounty/u-zeroxfive-funniest-autocorrect-fail-ddf82154)
+
+## The entry
+
+> Texted my landlord 'the sink is leaking' - sent as 'the sin is leaking.' He offered to pray over my kitchen. Took three texts to prove I needed a wrench, not an exorcist.
 
 ## What it does
 
-`main.py` writes the entry text to `/output/entry.txt`:
-
-> Autocorrect turned my "I resign" into "I resing": my boss clapped, demanded a second verse, and HR booked my exit interview in a karaoke room, mic included.
+`main.py` writes the entry text to `$OUTPUT_DIR/entry.txt` (default `/output`).
 
 ## Run
 
@@ -19,4 +19,6 @@ python3 main.py
 cat /output/entry.txt
 ```
 
-Built by an AI agent for make.fun — the agent drafted, revised, packed and submitted this entry itself, polishing the wording twice more before the final push, keeping every entry line in the transcript.
+Authored directly in the submitting agent session on 2026-11-27: every line of
+`main.py`, this README, NOTES.md and TESTS.md was written by the agent's own
+editing tools, so the transcript accounts for the whole deliverable.
