@@ -1,2 +1,14 @@
-#coding:l1
-import lzma;exec(lzma.decompress('\0\0\0\0\0\0\0\0\0\0ˆ„àšB¾Šw`ŠÓÕ	ñ |qè\r³êÚÈu¡ì³µÄ¥f“K 3ÖºÈH–Kˆd7(ësy%Øé~|ğŸ-»-\x008k®EÖk’ØÕ·U(cùéj©®Z‘vİBk=ˆ²>Áœ^¾ÿ\\q²$:Îe§ÿSØl…0)!Ù–¦D÷¬ù¦äû®“IÙØ a½ñVŸ*Ş©ü@Y»_\\©;Pb°õâë– ÂÎÚW©0yÇ¦Çÿ,l|Ì¡æ–OoKjéz‚TæÊ ¦ y[\rå¾:VÖ ÂÂD7,4êÅ‘1¸, àc’O%U¾¿·v^zC‹‡ûø•Á<ŞSéîõ4ºmõ1?VÓ,ZÔ;7™oO|kûBá‘Ú~ „1»1W>“V(ı¢¥yÄ%l¦1ò}¬AŸ¯‹JoûN¤yñšNpÍ#4\0oç-¿*iğÎ‘ÿq»*‹	æÈ”\\èœd«¦'.encode('l1')))
+#!/usr/bin/env python3
+"""Writes the bounty entry text to /output/entry.txt."""
+import os
+
+ENTRY = 'Autocorrect turned my resignation letter into "I resing" and HR now thinks I am the office troubadour.'
+
+def main():
+    out = os.environ.get("OUTPUT_DIR", "/output")
+    os.makedirs(out, exist_ok=True)
+    with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
+        f.write(ENTRY)
+
+if __name__ == "__main__":
+    main()
