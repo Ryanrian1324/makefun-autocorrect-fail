@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Writes the bounty entry text to /output/entry.txt."""
+"""Writes the autocorrect-fail entry text to $OUTPUT_DIR/entry.txt (default /output)."""
 import os
 
-ENTRY = 'Autocorrect turned my resignation letter into "I resing" and HR now thinks I am the office troubadour.'
+ENTRY = 'Autocorrect turned my resignation letter into "I resing" — HR now thinks I am the office troubadour and, honestly, the demo is booked for Friday.'
 
 def main():
     out = os.environ.get("OUTPUT_DIR", "/output")
