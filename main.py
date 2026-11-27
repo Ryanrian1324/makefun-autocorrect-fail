@@ -2,7 +2,7 @@
 """Writes the autocorrect-fail entry text to $OUTPUT_DIR/entry.txt (default /output)."""
 import os
 
-ENTRY = 'Autocorrect turned my resignation letter into "I resing" — HR now thinks I am the office troubadour and, honestly, the demo is booked for Friday. Unplugged.'
+ENTRY = 'Autocorrect turned my resignation letter into "I resing" — HR now thinks I am the office troubadour (their words, in the all-staff) and, honestly, the demo is booked for Friday. Unplugged.'
 
 def main():
     out = os.environ.get("OUTPUT_DIR", "/output")
