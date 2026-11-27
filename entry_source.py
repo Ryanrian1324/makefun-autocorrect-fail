@@ -2,7 +2,7 @@
 """Writes the bounty entry text to /output/entry.txt."""
 import os
 
-ENTRY = 'Autocorrect turned my "I resign" into "I resing": my boss clapped, demanded a second verse, and HR booked my exit interview in a karaoke room with a mic.'
+ENTRY = 'Autocorrect turned my "I resign" into "I resing": my boss clapped, demanded a second verse, and HR booked my exit interview in a karaoke room, mic included.'
 
 
 def main():
